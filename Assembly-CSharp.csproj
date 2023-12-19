@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Mingu\XRPlatformControllerSetup.cs" />
+     <Compile Include="Assets\Cubetemp.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.48f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -711,6 +712,18 @@
     </Reference>
     <Reference Include="Unity.InteractiveTutorials.Core.Scripts">
         <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+        <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+        <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+        <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+        <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638358772722380091
-    m_Hash: 4140799650
+      ticks: 638368399042077418
+    m_Hash: 1116937966
   m_LockFileStatus:
     m_FilePath: C:/OnlyUnity/This_is_my_conducting/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638358772722439880
-    m_Hash: 4250692905
+      ticks: 638368399042127291
+    m_Hash: 1672499789
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -611,7 +611,7 @@ m_PackageAssets:
       - name: com.unity.editorcoroutines
         version: 1.0.0
       - name: com.unity.settings-manager
-        version: 1.0.2
+        version: 1.0.3
       keywords:
       - tutorials
       registry:
@@ -634,6 +634,159 @@ m_PackageAssets:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/iet-package.git
         revision: d8844989d65f92c6dede187e8149d129ac4f6a41
+        path: 
+    - packageId: com.unity.probuilder@4.5.2
+      testable: 0
+      isDirectDependency: 1
+      version: 4.5.2
+      source: 1
+      resolvedPath: C:\OnlyUnity\This_is_my_conducting\Library\PackageCache\com.unity.probuilder@4.5.2
+      assetPath: Packages/com.unity.probuilder
+      name: com.unity.probuilder
+      displayName: ProBuilder
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: asset
+      description: 'Build, edit, and texture custom geometry in Unity. Use ProBuilder
+        for in-scene level design, prototyping, collision meshes, all with on-the-fly
+        play-testing.
+
+
+        Advanced features include UV editing, vertex colors,
+        parametric shapes, and texture blending. With ProBuilder''s model export
+        feature it''s easy to tweak your levels in any external 3D modelling suite.'
+      status: 0
+      errors: []
+      versions:
+        all:
+        - 3.0.0
+        - 3.0.1
+        - 3.0.2
+        - 3.0.3
+        - 3.0.6
+        - 3.0.8
+        - 3.0.9
+        - 3.10.1
+        - 4.0.2
+        - 4.0.3
+        - 4.0.4
+        - 4.0.5
+        - 4.1.0
+        - 4.1.2
+        - 4.2.1
+        - 4.2.2-preview.1
+        - 4.2.2-preview.2
+        - 4.2.3
+        - 4.2.4-preview.0
+        - 4.3.0-preview.0
+        - 4.3.0-preview.1
+        - 4.3.0-preview.2
+        - 4.3.0-preview.4
+        - 4.3.0-preview.6
+        - 4.3.0-preview.7
+        - 4.3.0-preview.8
+        - 4.3.0-preview.9
+        - 4.3.1
+        - 4.4.0-preview.1
+        - 4.4.0
+        - 4.5.0
+        - 4.5.2
+        - 5.0.0-pre.7
+        - 5.0.0-pre.10
+        - 5.0.1
+        - 5.0.3
+        - 5.0.4
+        - 5.0.6
+        - 5.0.7
+        - 5.1.0
+        - 5.1.1
+        - 5.2.0
+        compatible:
+        - 4.0.2
+        - 4.0.3
+        - 4.0.4
+        - 4.0.5
+        - 4.1.0
+        - 4.1.2
+        - 4.2.1
+        - 4.2.2-preview.1
+        - 4.2.2-preview.2
+        - 4.2.3
+        - 4.2.4-preview.0
+        - 4.3.0-preview.0
+        - 4.3.0-preview.1
+        - 4.3.0-preview.2
+        - 4.3.0-preview.4
+        - 4.3.0-preview.6
+        - 4.3.0-preview.7
+        - 4.3.0-preview.8
+        - 4.3.0-preview.9
+        - 4.3.1
+        - 4.4.0-preview.1
+        - 4.4.0
+        - 4.5.0
+        - 4.5.2
+        - 5.0.0-pre.7
+        - 5.0.0-pre.10
+        - 5.0.1
+        - 5.0.3
+        - 5.0.4
+        - 5.0.6
+        - 5.0.7
+        - 5.1.0
+        - 5.1.1
+        - 5.2.0
+        verified: 4.5.2
+      dependencies:
+      - name: com.unity.settings-manager
+        version: 1.0.3
+      resolvedDependencies:
+      - name: com.unity.settings-manager
+        version: 1.0.3
+      keywords:
+      - 3d
+      - model
+      - mesh
+      - modeling
+      - geometry
+      - shape
+      - cube
+      - blender
+      - max
+      - maya
+      - fbx
+      - obj
+      - level
+      - design
+      - block
+      - greybox
+      - graybox
+      - whitebox
+      - prototype
+      - probuilder
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+        configSource: 0
+      hasRegistry: 1
+      hideInEditor: 0
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637613656650000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/Unity-Technologies/com.unity.probuilder.git
+        revision: 27f52072e5f94638d1f81bc53df38e59d5bac785
         path: 
     - packageId: com.unity.test-framework@1.1.33
       testable: 0
@@ -4317,6 +4470,69 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
         revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
         path: 
+    - packageId: com.unity.settings-manager@1.0.3
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.3
+      source: 1
+      resolvedPath: C:\OnlyUnity\This_is_my_conducting\Library\PackageCache\com.unity.settings-manager@1.0.3
+      assetPath: Packages/com.unity.settings-manager
+      name: com.unity.settings-manager
+      displayName: Settings Manager
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: asset
+      description: A framework for making any serializable field a setting, complete
+        with a pre-built settings interface.
+      status: 0
+      errors: []
+      versions:
+        all:
+        - 0.1.0-preview.4
+        - 0.1.0-preview.8
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 2.0.0
+        - 2.0.1
+        compatible:
+        - 0.1.0-preview.4
+        - 0.1.0-preview.8
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 2.0.0
+        - 2.0.1
+        verified: 1.0.3
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+        configSource: 0
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637300096300000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
+        revision: 473664ccba1496294b741cf169740a5d54b3d0b6
+        path: 
     - packageId: com.unity.editorcoroutines@1.0.0
       testable: 0
       isDirectDependency: 0
@@ -4381,69 +4597,6 @@ m_PackageAssets:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.editorcoroutines.git
         revision: f67fc9992bbc7a553b17375de53a8b2db136528e
-        path: 
-    - packageId: com.unity.settings-manager@1.0.2
-      testable: 0
-      isDirectDependency: 0
-      version: 1.0.2
-      source: 1
-      resolvedPath: C:\OnlyUnity\This_is_my_conducting\Library\PackageCache\com.unity.settings-manager@1.0.2
-      assetPath: Packages/com.unity.settings-manager
-      name: com.unity.settings-manager
-      displayName: Settings Manager
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: asset
-      description: A framework for making any serializable field a setting, complete
-        with a pre-built settings interface.
-      status: 0
-      errors: []
-      versions:
-        all:
-        - 0.1.0-preview.4
-        - 0.1.0-preview.8
-        - 1.0.0
-        - 1.0.1
-        - 1.0.2
-        - 1.0.3
-        - 2.0.0
-        - 2.0.1
-        compatible:
-        - 0.1.0-preview.4
-        - 0.1.0-preview.8
-        - 1.0.0
-        - 1.0.1
-        - 1.0.2
-        - 1.0.3
-        - 2.0.0
-        - 2.0.1
-        verified: 1.0.3
-      dependencies: []
-      resolvedDependencies: []
-      keywords: []
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-        configSource: 0
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637187671360000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
-        revision: e8eedc87ca7850bac0f7b2257db4edb8c300a0f3
         path: 
     - packageId: com.unity.subsystemregistration@1.1.0
       testable: 0
