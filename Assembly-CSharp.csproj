@@ -36,8 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Mingu\XRPlatformControllerSetup.cs" />
      <Compile Include="Assets\Cubetemp.cs" />
+     <Compile Include="Assets\Mingu\XRPlatformControllerSetup.cs" />
+     <Compile Include="Assets\Mingu\CondObjOut.cs" />
+     <Compile Include="Assets\Mingu\CondObjMan.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.48f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -632,11 +634,20 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+        <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+        <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.Interaction.Toolkit">
         <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
         <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+        <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -674,6 +685,9 @@
     <Reference Include="Unity.XR.WindowsMixedReality.Editor">
         <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+        <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
         <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
@@ -698,11 +712,11 @@
     <Reference Include="Unity.XR.ARSubsystems">
         <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.Oculus.Editor">
-        <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
         <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Oculus.Editor">
+        <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
         <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
@@ -712,18 +726,6 @@
     </Reference>
     <Reference Include="Unity.InteractiveTutorials.Core.Scripts">
         <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder">
-        <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AddOns.Editor">
-        <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.Editor">
-        <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-        <HintPath>C:\OnlyUnity\This_is_my_conducting\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

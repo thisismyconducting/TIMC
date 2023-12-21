@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638368399042077418
-    m_Hash: 1116937966
+      ticks: 638386587509636471
+    m_Hash: 1049227515
   m_LockFileStatus:
     m_FilePath: C:/OnlyUnity/This_is_my_conducting/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638368399042127291
-    m_Hash: 1672499789
+      ticks: 638386587509652890
+    m_Hash: 3453604749
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -222,6 +222,7 @@ m_PackageAssets:
         - 3.0.24
         - 3.0.25
         - 3.0.26
+        - 3.0.27
         compatible:
         - 1.0.2
         - 1.0.6
@@ -263,7 +264,8 @@ m_PackageAssets:
         - 3.0.24
         - 3.0.25
         - 3.0.26
-        verified: 3.0.26
+        - 3.0.27
+        verified: 3.0.27
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -704,6 +706,8 @@ m_PackageAssets:
         - 5.1.0
         - 5.1.1
         - 5.2.0
+        - 5.2.2
+        - 6.0.1-pre.1
         compatible:
         - 4.0.2
         - 4.0.3
@@ -739,6 +743,7 @@ m_PackageAssets:
         - 5.1.0
         - 5.1.1
         - 5.2.0
+        - 5.2.2
         verified: 4.5.2
       dependencies:
       - name: com.unity.settings-manager
@@ -852,6 +857,8 @@ m_PackageAssets:
         - 1.3.8
         - 1.3.9
         - 1.4.0
+        - 1.4.1
+        - 1.4.2
         - 2.0.1-exp.1
         - 2.0.1-exp.2
         - 2.0.1-pre.12
@@ -868,6 +875,8 @@ m_PackageAssets:
         - 1.3.8
         - 1.3.9
         - 1.4.0
+        - 1.4.1
+        - 1.4.2
         - 2.0.1-exp.1
         - 2.0.1-exp.2
         - 2.0.1-pre.12
@@ -1406,6 +1415,7 @@ m_PackageAssets:
         - 2.5.0
         - 2.5.1
         - 2.5.2
+        - 3.0.0-pre.1
         compatible:
         - 0.0.6-preview
         - 0.9.0-preview
@@ -1748,6 +1758,7 @@ m_PackageAssets:
         - 4.1.1
         - 4.1.2
         - 4.2.0-exp-env-depth.1
+        - 4.2.0-exp-env-depth.2
         compatible:
         - 1.13.1
         - 2.0.0-preview.1
@@ -4336,6 +4347,8 @@ m_PackageAssets:
         - 2.2.2
         - 2.2.3
         - 2.3.0-pre.1
+        - 2.3.0-pre.2
+        - 2.3.0-pre.3
         - 2.4.0-exp.1
         - 2.4.0-exp.2
         - 2.4.0-exp.3
@@ -4355,6 +4368,8 @@ m_PackageAssets:
         - 2.2.2
         - 2.2.3
         - 2.3.0-pre.1
+        - 2.3.0-pre.2
+        - 2.3.0-pre.3
         - 2.4.0-exp.1
         - 2.4.0-exp.2
         - 2.4.0-exp.3
