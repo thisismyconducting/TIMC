@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class CondObjMan : MonoBehaviour
 {
@@ -53,7 +54,9 @@ public class CondObjMan : MonoBehaviour
                 CondObjList.Clear();
                 Debug.Log("Success!");
                 Debug.Log(SuccessList[0]);
-            }else{
+                interaction();
+            }
+            else{
                 
                 Debug.Log("Fail...");
             }
@@ -82,6 +85,37 @@ public class CondObjMan : MonoBehaviour
         CondObjList.Remove(obj);
     }
 
+    void interaction()
+    {
+        GameObject gameMode = GameObject.Find("GameMode");
+        Score_A score = gameMode.GetComponent<Score_A>();
+
+        string str = SuccessList[0];
+        if (str.Equals("Circle(Clone)"))
+        {
+            score.IncreaseTempo();
+        }
+        if (str.Equals("square(Clone)"))
+        {
+            score.DecreaseTempo();
+        }
+        if (str.Equals("Triangle1(Clone)"))
+        {
+            score.IncreaseDynamic();
+        }
+        if (str.Equals("Triangle2(Clone)"))
+        {
+            score.DecreaseDynamic();
+        }
+        if (str.Equals("rhombus(Clone)"))
+        {
+            score.RemoveDisturber();
+        }
+        if (str.Equals("UpDown(Clone)"))
+        {
+            score.RecoverPartMistake();
+        }
+    }
 
     #endregion
 }
