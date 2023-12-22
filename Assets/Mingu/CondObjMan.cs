@@ -10,7 +10,7 @@ public class CondObjMan : MonoBehaviour
     public static CondObjMan Instance;
     public List<GameObject> Figures;
     static List<GameObject> CondObjList = new List<GameObject>();
-    public static List<string> SuccessList = new List<string>();
+    public static string SuccessCond;
     public static float time = 0;
     public static float cycle = 2.0f;
     public static bool isConducting = false;
@@ -50,10 +50,10 @@ public class CondObjMan : MonoBehaviour
             isConducting = false;
             if (CondObjList.Count > 0)
             {
-                SuccessList.Add(CondObjList[0].name); //이 리스트의 0번을 받으면 지휘를 한 모양을 이름으로 받음.
+                SuccessCond = CondObjList[0].name; //이 리스트의 0번을 받으면 지휘를 한 모양을 이름으로 받음.
                 CondObjList.Clear();
                 Debug.Log("Success!");
-                Debug.Log(SuccessList[0]);
+                Debug.Log(SuccessCond);
                 interaction();
             }
             else{
@@ -90,7 +90,7 @@ public class CondObjMan : MonoBehaviour
         GameObject gameMode = GameObject.Find("GameMode");
         Score_A score = gameMode.GetComponent<Score_A>();
 
-        string str = SuccessList[0];
+        string str = SuccessCond;
         if (str.Equals("Circle(Clone)"))
         {
             score.IncreaseTempo();
